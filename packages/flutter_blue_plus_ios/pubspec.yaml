@@ -27,3 +27,4 @@ flutter:
       ios:
         pluginClass: FlutterBluePlusPlugin
         dartPluginClass: FlutterBluePlusIos
+        podspec: ios/flutter_blue_plus_ios.podspec

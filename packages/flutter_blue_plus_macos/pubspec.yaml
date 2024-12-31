@@ -27,3 +27,4 @@ flutter:
       macos:
         pluginClass: FlutterBluePlusPlugin
         dartPluginClass: FlutterBluePlusMacos
+        podspec: macos/flutter_blue_plus_macos.podspec
