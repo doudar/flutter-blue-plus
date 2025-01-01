@@ -29,10 +29,18 @@ packages:
     dependency: transitive
     description:
       name: collection
-      sha256: ee67cb0715911d28db6bf4af1026078bd6f0128b07a5f66fb2ed94ec6783c09a
+      sha256: a1ace0a119f20aabc852d165077c036cd864315bd99b7eaa10a60100341941bf
       url: "https://pub.dev"
     source: hosted
-    version: "1.18.0"
+    version: "1.19.0"
+  convert:
+    dependency: transitive
+    description:
+      name: convert
+      sha256: b30acd5944035672bc15c6b7a8b47d773e41e2f17de064350988c5d02adb1c68
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.2"
   dbus:
     dependency: transitive
     description:
@@ -60,66 +68,42 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "2.0.6"
+    version: "1.0.0"
   flutter_blue_plus_android:
     dependency: transitive
     description:
-      path: "packages/flutter_blue_plus_android"
-      ref: "flutter_blue_plus_android-v2.0.5"
-      resolved-ref: df57be31d672097e1eed9877c6ef0a2056b9f035
-      url: "https://github.com/tnc1997/flutter-blue-plus.git"
-    source: git
-    version: "2.0.5"
+      path: "../../flutter_blue_plus_android"
+      relative: true
+    source: path
+    version: "1.0.0"
   flutter_blue_plus_ios:
     dependency: transitive
     description:
-      path: "packages/flutter_blue_plus_ios"
-      ref: "flutter_blue_plus_ios-v2.0.3"
-      resolved-ref: "3eeabd00b1b7232780229ddc70bfd2b5eb33b67a"
-      url: "https://github.com/tnc1997/flutter-blue-plus.git"
-    source: git
-    version: "2.0.3"
+      path: "../../flutter_blue_plus_ios"
+      relative: true
+    source: path
+    version: "1.0.0"
   flutter_blue_plus_linux:
     dependency: transitive
     description:
-      path: "packages/flutter_blue_plus_linux"
-      ref: "flutter_blue_plus_linux-v2.0.1"
-      resolved-ref: "08998acdd8437d8a4e991c42d35fd9f42807d6fa"
-      url: "https://github.com/tnc1997/flutter-blue-plus.git"
-    source: git
-    version: "2.0.1"
+      path: "../../flutter_blue_plus_linux"
+      relative: true
+    source: path
+    version: "1.0.0"
   flutter_blue_plus_macos:
     dependency: transitive
     description:
-      path: "packages/flutter_blue_plus_macos"
-      ref: "flutter_blue_plus_macos-v2.0.4"
-      resolved-ref: "3eeabd00b1b7232780229ddc70bfd2b5eb33b67a"
-      url: "https://github.com/tnc1997/flutter-blue-plus.git"
-    source: git
-    version: "2.0.4"
+      path: "../../flutter_blue_plus_macos"
+      relative: true
+    source: path
+    version: "1.0.0"
   flutter_blue_plus_platform_interface:
     dependency: transitive
     description:
-      path: "packages/flutter_blue_plus_platform_interface"
-      ref: "flutter_blue_plus_platform_interface-v2.0.1"
-      resolved-ref: "08998acdd8437d8a4e991c42d35fd9f42807d6fa"
-      url: "https://github.com/tnc1997/flutter-blue-plus.git"
-    source: git
-    version: "2.0.1"
-  flutter_blue_plus_web:
-    dependency: transitive
-    description:
-      path: "packages/flutter_blue_plus_web"
-      ref: "flutter_blue_plus_web-v2.0.1"
-      resolved-ref: "08998acdd8437d8a4e991c42d35fd9f42807d6fa"
-      url: "https://github.com/tnc1997/flutter-blue-plus.git"
-    source: git
-    version: "2.0.1"
-  flutter_web_plugins:
-    dependency: transitive
-    description: flutter
-    source: sdk
-    version: "0.0.0"
+      path: "../../flutter_blue_plus_platform_interface"
+      relative: true
+    source: path
+    version: "1.0.0"
   material_color_utilities:
     dependency: transitive
     description:
@@ -164,7 +148,15 @@ packages:
     dependency: transitive
     description: flutter
     source: sdk
-    version: "0.0.99"
+    version: "0.0.0"
+  typed_data:
+    dependency: transitive
+    description:
+      name: typed_data
+      sha256: f9049c039ebfeb4cf7a7104a675823cd72dba8297f264b6637062516699fa006
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.0"
   vector_math:
     dependency: transitive
     description:
@@ -173,14 +165,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
-  web:
-    dependency: transitive
-    description:
-      name: web
-      sha256: cd3543bd5798f6ad290ea73d210f423502e71900302dde696f8bff84bf89a1cb
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
   xml:
     dependency: transitive
     description:
@@ -190,5 +174,5 @@ packages:
     source: hosted
     version: "6.5.0"
 sdks:
-  dart: ">=3.4.0 <4.0.0"
-  flutter: ">=3.19.0"
+  dart: ">=3.5.0 <4.0.0"
+  flutter: ">=3.0.0"
